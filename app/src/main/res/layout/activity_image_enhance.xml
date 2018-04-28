@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImageEnhanceActivity">
+
+    <Button
+        android:id="@+id/btnImageToBW"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="B &amp; W"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btnImageToMagicColor"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnImageToMagicColor"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Magic Color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/btnImageToGray"
+        app:layout_constraintStart_toEndOf="@id/btnImageToBW" />
+
+    <Button
+        android:id="@+id/btnImageToGray"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Gray Color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btnImageToMagicColor" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:padding="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnImageToBW"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.505" />
+
+</android.support.constraint.ConstraintLayout>
