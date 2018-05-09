@@ -1,4 +1,4 @@
-package id.aashari.code.camerascannertesting2;
+package id.aashari.code.camerascanner;
 
 import org.junit.Test;
 

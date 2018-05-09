@@ -1,4 +1,4 @@
-package id.aashari.code.camerascannertesting2.helpers;
+package id.aashari.code.camerascanner.helpers;
 
 import android.graphics.Bitmap;
 

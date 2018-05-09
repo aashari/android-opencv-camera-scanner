@@ -1,4 +1,4 @@
-package id.aashari.code.camerascannertesting2;
+package id.aashari.code.camerascanner;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -13,7 +13,7 @@ import android.widget.ImageView;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 
-import id.aashari.code.camerascannertesting2.helpers.MyConstants;
+import id.aashari.code.camerascanner.helpers.MyConstants;
 
 public class MainActivity extends AppCompatActivity {
 

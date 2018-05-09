@@ -1,4 +1,4 @@
-package id.aashari.code.camerascannertesting2;
+package id.aashari.code.camerascanner;
 
 import android.graphics.Bitmap;
 import android.os.Bundle;
@@ -7,8 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
-import id.aashari.code.camerascannertesting2.helpers.MyConstants;
-import id.aashari.code.camerascannertesting2.libraries.NativeClass;
+import id.aashari.code.camerascanner.helpers.MyConstants;
+import id.aashari.code.camerascanner.libraries.NativeClass;
 
 public class ImageEnhanceActivity extends AppCompatActivity {
 

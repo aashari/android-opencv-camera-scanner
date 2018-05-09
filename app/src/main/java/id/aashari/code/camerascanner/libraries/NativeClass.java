@@ -1,4 +1,4 @@
-package id.aashari.code.camerascannertesting2.libraries;
+package id.aashari.code.camerascanner.libraries;
 
 import android.graphics.Bitmap;
 
@@ -16,6 +16,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
+
+import id.aashari.code.camerascanner.helpers.ImageUtils;
+import id.aashari.code.camerascanner.helpers.MathUtils;
 
 public class NativeClass {
 

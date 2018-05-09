@@ -1,4 +1,4 @@
-package id.aashari.code.camerascannertesting2.libraries;
+package id.aashari.code.camerascanner.helpers;
 
 import org.opencv.core.CvType;
 import org.opencv.core.MatOfPoint;
@@ -6,7 +6,6 @@ import org.opencv.core.MatOfPoint2f;
 import org.opencv.core.Point;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 public class MathUtils {

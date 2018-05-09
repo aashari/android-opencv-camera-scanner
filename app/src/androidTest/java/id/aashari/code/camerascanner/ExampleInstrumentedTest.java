@@ -1,4 +1,4 @@
-package id.aashari.code.camerascannertesting2;
+package id.aashari.code.camerascanner;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("id.aashari.code.camerascannertesting2", appContext.getPackageName());
+        assertEquals("id.aashari.code.camerascanner", appContext.getPackageName());
     }
 }

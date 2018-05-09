@@ -47,7 +47,7 @@
                 android:adjustViewBounds="true" />
         </FrameLayout>
 
-        <id.aashari.code.camerascannertesting2.libraries.PolygonView
+        <id.aashari.code.camerascanner.libraries.PolygonView
             android:id="@+id/polygonView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

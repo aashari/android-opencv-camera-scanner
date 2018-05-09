@@ -1,8 +1,5 @@
-package id.aashari.code.camerascannertesting2.libraries;
+package id.aashari.code.camerascanner.libraries;
 
-import android.util.Log;
-
-import org.opencv.core.Core;
 import org.opencv.core.Mat;
 import org.opencv.core.MatOfPoint2f;
 import org.opencv.core.Point;

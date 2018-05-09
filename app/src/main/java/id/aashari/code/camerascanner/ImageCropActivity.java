@@ -1,4 +1,4 @@
-package id.aashari.code.camerascannertesting2;
+package id.aashari.code.camerascanner;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -24,9 +24,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import id.aashari.code.camerascannertesting2.helpers.MyConstants;
-import id.aashari.code.camerascannertesting2.libraries.NativeClass;
-import id.aashari.code.camerascannertesting2.libraries.PolygonView;
+import id.aashari.code.camerascanner.helpers.MyConstants;
+import id.aashari.code.camerascanner.libraries.NativeClass;
+import id.aashari.code.camerascanner.libraries.PolygonView;
 
 public class ImageCropActivity extends Activity {
 

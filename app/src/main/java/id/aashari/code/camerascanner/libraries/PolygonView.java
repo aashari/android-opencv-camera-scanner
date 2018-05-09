@@ -1,4 +1,4 @@
-package id.aashari.code.camerascannertesting2.libraries;
+package id.aashari.code.camerascanner.libraries;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -16,7 +16,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import id.aashari.code.camerascannertesting2.R;
+import id.aashari.code.camerascanner.R;
 
 /**
  * Created by jhansi on 28/03/15.
