@@ -138,15 +138,21 @@ public class ImageCropActivity extends Activity {
 
     private List<PointF> getContourEdgePoints(Bitmap tempBitmap) {
         Log.v("aashari-tag", "getContourEdgePoints");
+        List<PointF> result = new ArrayList<>();
 
         MatOfPoint2f point2f = nativeClass.getPoint(tempBitmap);
-        List<Point> points = Arrays.asList(point2f.toArray());
+        //<--- handled exception--->
+        try {
+            List<Point> points = Arrays.asList(point2f.toArray());
 
-        List<PointF> result = new ArrayList<>();
-        for (int i = 0; i < points.size(); i++) {
-            result.add(new PointF(((float) points.get(i).x), ((float) points.get(i).y)));
+            for (int i = 0; i < points.size(); i++) {
+                result.add(new PointF(((float) points.get(i).x), ((float) points.get(i).y)));
+            }
+
+        }catch (Exception e)
+        {
+            e.printStackTrace();
         }
-
         return result;
 
     }
